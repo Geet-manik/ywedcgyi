@@ -27,15 +27,11 @@ body{
     width: 100%;
     margin-bottom: 50px;
 }
-.size2{
-    height: 81%;
-    width: 30%;
-    font-size: 25px;
-}
+
 .size3{
     height: 81%;
-    width: 70%;
-    font-size: 28px;
+    width: 100%;
+    font-size: 30px;
     margin-top:0px ;
 }
 hr{
@@ -66,4 +62,18 @@ img{
     text-decoration: none;
     color: white;
   }
-  @import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
+  .margin_top{
+    margin-top: 5%;
+  }
+  .margin_bottom{
+ margin-bottom: 4%;
+
+  }
+  img{
+ 
+    background-color: black;
+       width: 40%;
+       height:  40%;
+   
+       border-radius: 15px;
+   }

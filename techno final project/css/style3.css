@@ -1,96 +1,131 @@
-body{
-   
-    background-color:black;
+body {
+
+    background-color: black;
     color: white;
     font-size: 55px;
     height: 100vh;
     margin: 0px;
-   padding: 20px;
-   padding-left: 50px;
-   box-sizing: border-box;
-   font-family:'Avenir LT Std';
+    padding: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    font-family: 'Avenir LT Std';
 
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.direction{
+
+.direction {
     flex-direction: column;
-    
+
 }
-.content{
+
+.content {
     justify-content: space-around;
     height: 80vh;
 }
-.font_size{
+
+.font_size {
     font-size: 28px;
 }
-.size{
+
+.size {
     height: 19%;
     width: 100%;
     margin-bottom: 50px;
 }
-.size2{
+
+.size2 {
     height: 81%;
     width: 30%;
     font-size: 25px;
 }
-.size3{
+
+.size3 {
     height: 81%;
     width: 70%;
     font-size: 28px;
-    margin-top:0px ;
+    margin-top: 0px;
 }
-hr{
+
+hr {
     width: 350px;
 }
-img{
-  
+
+img {
+
     width: 50%;
-    height:  500px;
-    border:2px solid black;
+    height: 500px;
+    border: 2px solid black;
     border-radius: 5px;
 }
+
 .button {
-    background-color: #1526e0; 
+    background-color: #1526e0;
     border: none;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     display: inline-block;
     font-size: 30px;
-   margin-right: 100px;
+    margin-right: 100px;
     cursor: pointer;
     border-radius: 15px;
-    height: 50px; 
+    height: 50px;
     width: 150px;
-  }
-  .button5 {background-color: #555555;} 
-  a{
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.margin_top {
+    margin-top: 5%;
+}
+
+.button5 {
+    background-color: #555555;
+}
+
+a {
     text-decoration: none;
     color: white;
-    cursor:default;
-  }
-  label{
-    width: 100%;
-height: 50px; 
-font-size: 30px;
-font-family: sans-serif;
- 
+    cursor: default;
 }
-input{
-    height: 50px; 
-    width: 70%;
-font-size: 30px;
-border-radius: 10px;
-margin-top: 10px; 
-margin-bottom: 10px;
-margin-left: 15px; 
 
+label {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+input {
+    height: 50px;
+    width: 70%;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+}
+
+.margin_bottom {
+    margin-bottom: 4%;
+
+}
+
+img {
+
+    background-color: black;
+    width: 40%;
+    height: 40%;
+
+    border-radius: 15px;
 }
 
 @import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
