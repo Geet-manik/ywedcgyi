@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70%;
+    height:70%;
     width: 100%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -54,7 +54,7 @@ img{
     border-radius: 15px;
 }
 .center{
-    height: 81%;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ hr{
     margin: 10px;
 }
 .border{
-height: 75%;
+height: 90%;
 width: 30%;
 /* box-shadow: 0 0px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
 text-align: center;
